@@ -19,7 +19,7 @@ else
     echo "ngrok is now downloaded and ready to use."
 fi
 #./1ng.sh
-
+read -n 1 -s -r -p "Press any key to continue after reading ngrok message..."
 
 
 
