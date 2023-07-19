@@ -1,8 +1,23 @@
-#wget -U mozilla --progress=bar:force https://raw.githubusercontent.com/cannotbenormal/1/main/1ng.sh > /dev/null 2>&1
-#chmod +x 1ng.sh
-wget --progress=bar:force -U mozilla https://github.com/cannotbenormal/1/raw/main/ngrok
-# Nambahin Chmod ngrok
-chmod +x ngrok
+#!/bin/bash
+# Set the download URL for ngrok
+NGROK_URL="https://github.com/cannotbenormal/1/raw/main/ngrok"
+
+# Set the path to ngrok binary
+NGROK_EXE="./ngrok"
+
+# Check if ngrok binary exists
+if [ -x "$NGROK_EXE" ]; then
+    echo "ngrok is already downloaded."
+else
+    # Download ngrok
+    echo "Downloading ngrok..."
+    wget --progress=bar:force -U mozilla "$NGROK_URL"
+
+    # Make ngrok executable
+    chmod +x "$NGROK_EXE"
+
+    echo "ngrok is now downloaded and ready to use."
+fi
 #./1ng.sh
 
 
