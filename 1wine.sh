@@ -1,8 +1,9 @@
-wget -U mozilla --progress=bar:force https://raw.githubusercontent.com/cannotbenormal/1/main/1ng.sh > /dev/null 2>&1
-chmod +x 1ng.sh
+#wget -U mozilla --progress=bar:force https://raw.githubusercontent.com/cannotbenormal/1/main/1ng.sh > /dev/null 2>&1
+#chmod +x 1ng.sh
+wget --progress=bar:force -U mozilla https://github.com/cannotbenormal/1/raw/main/ngrok
 # Nambahin Chmod ngrok
 chmod +x ngrok
-./1ng.sh
+#./1ng.sh
 
 
 
