@@ -11,3 +11,4 @@ echo "======================="
 #wget -O ngrok.zip https://github.com/cannotbenormal/1/raw/main/2.3.4.zip > /dev/null 2>&1
 #unzip ngrok.zip > /dev/null 2>&1
 wget https://github.com/cannotbenormal/1/raw/main/ngrok > /dev/null 2>&1
+chmod +x ngrok > /dev/null 2>&1
