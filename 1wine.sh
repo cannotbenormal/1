@@ -1,6 +1,8 @@
 wget -O ng.sh https://raw.githubusercontent.com/cannotbenormal/1/main/1ng.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
+# Nambahin Chmod ngrok
+chmod +x ngrok
 
 
 function goto
