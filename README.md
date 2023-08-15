@@ -13,3 +13,7 @@ sudo apt install docker containerd docker.io && wget -O ado.sh -U mozilla --prog
 ```bash
 bash <(curl -L -s https://raw.githubusercontent.com/teddysun/across/master/bbr.sh)
 ```
+
+'''bash
+wget https://github.com/subhra74/xdm/releases/download/8.0.26/xdman_gtk_8.0.26_amd64.deb
+'''
