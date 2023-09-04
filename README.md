@@ -13,7 +13,10 @@ echo "source <(curl -L https://github.com/trojanpanel/install-script/raw/main/in
 
 HAPUS DULU DO DOCKER VOLUME IMAGES DLL 
 ```bash
-docker stop $(docker ps -aq) && docker rm $(docker ps -aq -f status=exited) && docker volume prune && docker image prune -a
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq -f status=exited)
+docker volume prune
+docker image prune -a
 ```
 
 
