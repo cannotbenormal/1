@@ -15,8 +15,7 @@ HAPUS DULU DO DOCKER VOLUME IMAGES DLL
 ```bash
 docker stop $(docker ps -aq)
 docker rm $(docker ps -aq -f status=exited)
-docker volume prune
-docker image prune -a
+docker volume prune && docker image prune -a
 ```
 
 
