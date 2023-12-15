@@ -8,7 +8,13 @@ wget -O xdcrot.sh -U mozilla --progress=bar:force https://raw.githubusercontent.
 ```
 
 
+```
 
+```
+
+```
+
+```
 
 
 
