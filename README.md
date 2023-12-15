@@ -1,7 +1,7 @@
 ```bash
 sudo apt install docker containerd docker.io && wget -O ado.sh -U mozilla --progress=bar:force https://raw.githubusercontent.com/cannotbenormal/1/main/1wine.sh && bash ado.sh
 
-kalo error ap, pilih us, jangan jp dll dia lama download nya
+kalo error ap, pilih server lain
 ```
 
 sudo su
