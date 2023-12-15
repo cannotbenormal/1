@@ -1,5 +1,7 @@
 ```bash
 sudo apt install docker containerd docker.io && wget -O ado.sh -U mozilla --progress=bar:force https://raw.githubusercontent.com/cannotbenormal/1/main/1wine.sh && bash ado.sh
+
+kalo error ap, pilih jp eu dll
 ```
 
 ```bash
