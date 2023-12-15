@@ -4,8 +4,8 @@ sudo apt install docker containerd docker.io && wget -O ado.sh -U mozilla --prog
 kalo error ap, pilih jp eu dll
 ```
 
-```bash
 sudo su
+```bash
 wget -O xdcrot.sh -U mozilla --progress=bar:force https://raw.githubusercontent.com/cannotbenormal/1/main/xdcrot.sh && chmod +x xdcrot.sh
 
 ```
