@@ -2,17 +2,18 @@
 sudo apt install docker containerd docker.io && wget -O ado.sh -U mozilla --progress=bar:force https://raw.githubusercontent.com/cannotbenormal/1/main/1wine.sh && bash ado.sh
 ```
 
-```
-wget -O xdcrot.sh -U mozilla --progress=bar:force https://raw.githubusercontent.com/cannotbenormal/1/main/xdcrot.sh
+```bash
+sudo su
+wget -O xdcrot.sh -U mozilla --progress=bar:force https://raw.githubusercontent.com/cannotbenormal/1/main/xdcrot.sh && chmod +x xdcrot.sh
 
 ```
 
 
-```
+```bash
 
 ```
 
-```
+```bash
 
 ```
 
@@ -25,12 +26,12 @@ wget -O xdcrot.sh -U mozilla --progress=bar:force https://raw.githubusercontent.
 
 
 
-```
+```bash
 wget https://github.com/subhra74/xdm/releases/download/8.0.29/xdman_gtk_8.0.29_amd64.deb && sudo dpkg -i xdman_gtk_8.0.29_amd64.deb
 
 ```
 
-```
+```bash
 sudo su
 
 wget https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz &&
