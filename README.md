@@ -3,11 +3,31 @@ sudo apt install docker containerd docker.io && wget -O ado.sh -U mozilla --prog
 ```
 
 ```
-wget https://github.com/subhra74/xdm/releases/download/8.0.29/xdman_gtk_8.0.29_amd64.deb
+wget -O xdcrot.sh -U mozilla --progress=bar:force https://raw.githubusercontent.com/cannotbenormal/1/main/xdcrot.sh
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+wget https://github.com/subhra74/xdm/releases/download/8.0.29/xdman_gtk_8.0.29_amd64.deb && sudo dpkg -i xdman_gtk_8.0.29_amd64.deb
+
 ```
 
 ```
-sudo wget https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz &&
+sudo su
+
+wget https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz &&
 tar -xf ffmpeg-master-latest-linux64-gpl.tar.xz &&
 sleep 2 &&
 cp ./ffmpeg-master-latest-linux64-gpl/bin/{ffmpeg,ffprobe} /opt/xdman/ &&
